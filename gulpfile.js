@@ -34,7 +34,10 @@ const onError = function(error) {
 
 // clean
 
-gulp.task('clean', () => del('dist'))
+gulp.task('clean', () => {
+  del('dist')
+  del('build')
+})
 
 
 // sass

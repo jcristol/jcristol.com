@@ -1,0 +1,113 @@
+/*
+ * Work 
+ */
+
+.work {
+  margin-top: 2em;
+  padding: 4em 0 4em;
+  background: $grey;
+
+  @include min($tablet) {
+    margin-top: 4em;
+    padding: 8em 0 8em;
+  }
+}
+
+.secondary-header {
+  margin-bottom: 0.5em;
+  font-size: 3.4rem;
+  font-weight: 300;
+
+  @include min($tablet) {
+    font-size: $h2-font-size;
+  }
+}
+
+.work__list {
+  width: 100%;
+  margin: 0;
+  padding: 0 5px;
+}
+
+.work__list-item {
+  transform: translateY(0);
+  display: block;
+  padding: 18px 5% 20px;
+  border-bottom: 1px solid $grey-border;
+  box-shadow: 0 0 0 rgba($black, 0.16);
+  background: linear-gradient($grey, $grey);
+  transition: all 300ms ease;
+  list-style: none;
+
+  .work__list-item--first {
+    border-top: 1px solid $grey-border;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    transform: translateY(-3px);
+    border-color: transparent;
+    box-shadow: 0 1px 6px rgba($black, 0.16);
+    background: linear-gradient(90deg, $primary-light, #3bdcc4, $primary-light);
+    color: $white;
+
+    .work-title,
+    .work-detail {
+      color: $white;
+    }
+  }
+}
+
+.work__list-item-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.work-title {
+  flex: 3 1 100%;
+  margin-bottom: 0;
+  color: $primary-light;
+  letter-spacing: 0;
+  line-height: 1.2;
+  font-size: 2.6rem;
+  transition: color 300ms ease;
+}
+
+.work-detail {
+  color: $dark-grey;
+  letter-spacing: 0.5px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  transition: color 300ms ease;
+}
+
+.work-role {
+  flex: 3 1 100%;
+
+  @include min($tablet) {
+    flex: 1 1 60%;
+  }
+}
+
+.work-company {
+  flex: 1 1 100%;
+
+  @include min($tablet) {
+    flex: 1 1 20%;
+  }
+}
+
+.work-date {
+  flex: 1 1 100%;
+
+  @include min($tablet) {
+    flex: 1 1 20%;
+    align-self: flex-end;
+    text-align: right;
+  }
+}

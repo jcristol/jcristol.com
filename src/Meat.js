@@ -1,5 +1,7 @@
 import React from 'react';
 import './css/style.css';
+import spredfast from './images/spredfast-logo.jpg'
+
 
 const Meat = () => (
   <div>
@@ -7,7 +9,9 @@ const Meat = () => (
       <div class="container">
         <h1 class="hero__title">
           My name is Joshua Cristol, a  
-          <a class="hero__link" target="_blank" href="https://github.com/destefanis"> developer </a>
+          <a class="hero__link" target="_blank" href="https://github.com/jcristol"> developer </a>
+          and
+          <a class="hero__link" target="_blank" href="https://github.com/jcristol"> engineer </a>
           living in Austin, Texas.
         </h1>
       </div>
@@ -16,16 +20,16 @@ const Meat = () => (
           <h3 class="employer__label">
             Currently:
           </h3>
-          <a target="_blank" href="https://steelseries.com">
-            @include("ss-logo.svg")
+          <a target="_blank" href="https://www.spredfast.com/">
+            <img src={spredfast} alt={"logo"}/> 
           </a>
         </div>
         <div class="hero__employer">
           <h3 class="employer__label">
             Previously:
           </h3>
-          <a target="_blank" href="https://palantir.net">
-            @include("palantir.svg")
+          <a target="_blank" href="https://www.spredfast.com/">
+            <img src={spredfast} alt={"logo"}/> 
           </a>
         </div>
       </div>

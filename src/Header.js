@@ -14,6 +14,9 @@ const Header = () => (
           <a data-scroll href="#work">Work</a>
         </li>
         <li class="nav__list-item">
+          <a data-scroll href="#projects">Projects</a>
+        </li>
+        <li class="nav__list-item">
           <a data-scroll href="#contact">Contact</a>
         </li>
       </ul>

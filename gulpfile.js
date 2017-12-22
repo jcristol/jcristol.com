@@ -35,7 +35,6 @@ const onError = function(error) {
 // clean
 
 gulp.task('clean', () => {
-  del('dist')
   del('build')
 })
 
@@ -55,6 +54,5 @@ gulp.task('sass', () => {
     .pipe(maps.init())
     .pipe(sass())
     .pipe(postcss(processors))
-    .pipe(maps.write('./maps', { addComment: false }))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('src/css'))
 })

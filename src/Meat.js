@@ -1,15 +1,14 @@
 import React from 'react';
-import './css/App.css';
+import './css/style.css';
 
 const Meat = () => (
   <div>
     <section class="hero">
       <div class="container">
         <h1 class="hero__title">
-          I’m Daniel Destefanis, a 
-          <a class="hero__link" target="_blank" href="https://github.com/destefanis">developer</a> 
-          and <a href="https://dribbble.com/danielrd" target="_blank" class="hero__Link hero__link--second">designer</a> living 
-          in Chicago currently working for SteelSeries.
+          My name is Joshua Cristol, a  
+          <a class="hero__link" target="_blank" href="https://github.com/destefanis"> developer </a>
+          living in Austin, Texas.
         </h1>
       </div>
       <div class="container container--wrap">

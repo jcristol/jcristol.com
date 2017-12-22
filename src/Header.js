@@ -6,7 +6,6 @@ const Header = () => (
     <div class="container container--vertically-center">
       <div class="nav__brand">
         <a href="http://danielrd.com">
-          @include("logo.svg")
         </a>
       </div>
       <ul class="nav__list">

@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/style.css';
 import spredfast from './images/spredfast-logo.jpg'
+import longhorn from './images/longhorn.png'
 
 
 const Meat = () => (
@@ -20,8 +21,8 @@ const Meat = () => (
           <h3 class="employer__label">
             Currently:
           </h3>
-          <a target="_blank" href="https://www.spredfast.com/">
-            <img src={spredfast} alt={"logo"}/> 
+          <a target="_blank" href="https://www.cs.utexas.edu/">
+            <img src={longhorn} alt={"logo"}/> 
           </a>
         </div>
         <div class="hero__employer">
@@ -44,18 +45,50 @@ const Meat = () => (
       <div class="work-container">
         <ul class="work__list">
           <li class="work__list-item">
-            <a target="_blank" class="work__list-item-link" href="http://artgallery.yale.edu/collection/search">
+            <a target="_blank" class="work__list-item-link" href="https://www.spredfast.com/">
               <h2 class="work-title">
-                Yale University Art Gallery
+                Spredfast
               </h2>
               <span class="work-detail work-role">
-                UX
+                Backend Dev Intern
               </span>
               <span class="work-detail work-company">
-                Palantir.net
+                spredfast.com
+              </span>
+              <span class="work-detail work-date">
+                2017
+              </span>
+            </a>
+          </li>
+          <li class="work__list-item">
+            <a target="_blank" class="work__list-item-link" href="https://www.verizon.com">
+              <h2 class="work-title">
+                Verizon
+              </h2>
+              <span class="work-detail work-role">
+                Network Engineering Intern
+              </span>
+              <span class="work-detail work-company">
+                verizon.com
               </span>
               <span class="work-detail work-date">
                 2015
+              </span>
+            </a>
+          </li>
+          <li class="work__list-item">
+            <a target="_blank" class="work__list-item-link" href="http://www.elbitsystems-us.com">
+              <h2 class="work-title">
+                Elbit Systems of Americaa
+              </h2>
+              <span class="work-detail work-role">
+                Software Engineering Intern
+              </span>
+              <span class="work-detail work-company">
+                elbitsystems-us.com
+              </span>
+              <span class="work-detail work-date">
+                2014
               </span>
             </a>
           </li>
@@ -71,18 +104,82 @@ const Meat = () => (
       <div class="work-container">
         <ul class="work__list">
           <li class="work__list-item">
-            <a target="_blank" class="work__list-item-link" href="http://artgallery.yale.edu/collection/search">
+            <a target="_blank" class="work__list-item-link" href="">
               <h2 class="work-title">
-                Yale University Art Gallery
+                NFL Database
               </h2>
               <span class="work-detail work-role">
-                UX
+                Backend Developer and Ops
               </span>
               <span class="work-detail work-company">
-                Palantir.net
+                Software Engineering Final Project
               </span>
               <span class="work-detail work-date">
-                2015
+                2017
+              </span>
+            </a>
+          </li>
+          <li class="work__list-item">
+            <a target="_blank" class="work__list-item-link" href="">
+              <h2 class="work-title">
+                Particle and Fluid Simulator
+              </h2>
+              <span class="work-detail work-role">
+                Project Collaborator
+              </span>
+              <span class="work-detail work-company">
+                Graphics Class Final Project
+              </span>
+              <span class="work-detail work-date">
+                2017
+              </span>
+            </a>
+          </li>
+          <li class="work__list-item">
+            <a target="_blank" class="work__list-item-link" href="">
+              <h2 class="work-title">
+                Texas Guadaloop
+              </h2>
+              <span class="work-detail work-role">
+                Head Electrical Engineer
+              </span>
+              <span class="work-detail work-company">
+                Final Hyperloop Pod PCB
+              </span>
+              <span class="work-detail work-date">
+                2015-2017
+              </span>
+            </a>
+          </li>
+          <li class="work__list-item">
+            <a target="_blank" class="work__list-item-link" href="">
+              <h2 class="work-title">
+                JS Project
+              </h2>
+              <span class="work-detail work-role">
+                Top Dog
+              </span>
+              <span class="work-detail work-company">
+                Bored Winter Break
+              </span>
+              <span class="work-detail work-date">
+                2017
+              </span>
+            </a>
+          </li>
+          <li class="work__list-item">
+            <a target="_blank" class="work__list-item-link" href="">
+              <h2 class="work-title">
+                JS Project
+              </h2>
+              <span class="work-detail work-role">
+                Top Dog
+              </span>
+              <span class="work-detail work-company">
+                Bored Winter Break
+              </span>
+              <span class="work-detail work-date">
+                2017
               </span>
             </a>
           </li>

@@ -69,7 +69,7 @@
       display: block;
     }
     h3, img{
-      transform: translateY(-2px) ease;
+      transform: translateY(-2px);
       opacity: 0.2;
     }
     background-color: rgba(107, 227, 225, 0.071);
@@ -80,7 +80,6 @@
     padding-right: 20px;
     height: auto;
     width: auto;
-    transition: all 200ms ease-in-out;
   }
 }
 

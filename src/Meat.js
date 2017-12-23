@@ -26,7 +26,7 @@ const Meat = () => (
             <img src={longhorn} alt={"logo"}/> 
           </div>
         </a>
-        <a target="_blank" href="https://www.cs.spredfast.com/">
+        <a target="_blank" href="https://www.spredfast.com/">
           <div class="hero__employer">
             <p class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</p>
             <h3 class="employer__label">
@@ -35,7 +35,7 @@ const Meat = () => (
             <img src={spredfast} alt={"logo"}/> 
           </div>
         </a>
-        <a target="_blank" href="https://www.cs.spredfast.com/">
+        <a target="_blank" href="https://www.spredfast.com/">
           <div class="hero__employer">
             <p class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</p>
             <h3 class="employer__label">

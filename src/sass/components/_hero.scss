@@ -27,8 +27,7 @@
   transition: color 250ms ease;
 
   &:hover,
-  &:focus,
-  &:active {
+  &:focus {
     color: #666;
   }
 }
@@ -38,8 +37,7 @@
   transition: color 250ms ease;
 
   &:hover,
-  &:focus,
-  &:active {
+  &:focus {
     color: #666;
   }
 }

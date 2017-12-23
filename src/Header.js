@@ -1,11 +1,13 @@
 import React from 'react';
 import './css/style.css';
+import logo from './images/Logo1.png'
 
 const Header = () => (
   <nav class="nav">
     <div class="container container--vertically-center">
       <div class="nav__brand">
-        <a href="http://danielrd.com">
+        <a href="">
+          <img src={logo} alt={"logo"}/> 
         </a>
       </div>
       <ul class="nav__list">

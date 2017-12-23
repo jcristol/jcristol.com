@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/style.css';
-import spredfast from './images/spredfast-logo.jpg'
+import spredfast from './images/spredfast-logo-trans.png'
 import longhorn from './images/longhorn.png'
 
 
@@ -16,18 +16,27 @@ const Meat = () => (
           living in Austin, Texas.
         </h1>
       </div>
-      <div class="container container--wrap">
-        <div class="hero__employer hero__employer--steelseries">
-          <h3 class="employer__label">
-            Currently:
-          </h3>
-          <a target="_blank" href="https://www.cs.utexas.edu/">
+      <div class="container container--wrap hero__container">
+        <a target="_blank" href="https://www.cs.utexas.edu/">
+          <div class="hero__employer">
+            <p class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</p>
+            <h3 class="employer__label">
+              Currently:
+            </h3>
             <img src={longhorn} alt={"logo"}/> 
+          </div>
+        </a>
+        <div class="hero__employer">
+          <h3 class="employer__label">
+            Previously:
+          </h3>
+          <a target="_blank" href="https://www.spredfast.com/">
+            <img src={spredfast} alt={"logo"}/> 
           </a>
         </div>
         <div class="hero__employer">
           <h3 class="employer__label">
-            Previously:
+            Working On:
           </h3>
           <a target="_blank" href="https://www.spredfast.com/">
             <img src={spredfast} alt={"logo"}/> 

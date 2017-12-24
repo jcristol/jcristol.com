@@ -45,6 +45,7 @@
 }
 
 .hero__container{
+  margin: 5rem;
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 250px;
@@ -57,7 +58,7 @@
   margin-bottom: 2em;
   margin-right: 2em;
   background-color: $grey;
-  border-radius: 2px;
+  border-radius: 5px;
   box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
   
 
@@ -65,12 +66,16 @@
     margin-bottom: 0;
   }
   &:hover {
-    p {
+    .employer__description {
       display: block;
     }
-    h3, img{
+    img{
       transform: translateY(-2px);
-      opacity: 0.2;
+      opacity: 0.1;
+      filter: blur(1px);
+    }
+    h3 {
+      opacity: 0;
     }
     background-color: rgba(107, 227, 225, 0.071);
   }
@@ -91,10 +96,11 @@
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 300;
+  text-align: center;
 }
 
 .employer__description {
-  color: $primary-light;
+  color: $grey;
   padding: 20px;
   padding-top: 40px;
   position: absolute;
@@ -106,4 +112,5 @@
   width: 300px;
   height: 300px;
   text-align: left;
+  color: #4d4d4d;
 }

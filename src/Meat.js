@@ -19,27 +19,27 @@ const Meat = () => (
       <div class="container container--wrap hero__container">
         <a target="_blank" href="https://www.cs.utexas.edu/">
           <div class="hero__employer">
-            <p class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</p>
+            <h4 class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</h4>
             <h3 class="employer__label">
-              Currently:
+              Currently
             </h3>
             <img src={longhorn} alt={"logo"}/> 
           </div>
         </a>
         <a target="_blank" href="https://www.spredfast.com/">
           <div class="hero__employer">
-            <p class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</p>
+            <h4 class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</h4>
             <h3 class="employer__label">
-              Previously:
+              Previously
             </h3>
             <img src={spredfast} alt={"logo"}/> 
           </div>
         </a>
         <a target="_blank" href="https://www.spredfast.com/">
           <div class="hero__employer">
-            <p class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</p>
+            <h4 class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</h4>
             <h3 class="employer__label">
-              Working On:
+              Working On
             </h3>
             <img src={spredfast} alt={"logo"}/> 
           </div>

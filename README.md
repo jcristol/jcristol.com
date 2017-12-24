@@ -2,6 +2,4 @@
 
 ##### Acknowledgements
 
-- [something]: https://github.com/destefanis	"awww"
-
-  ​
+- ​

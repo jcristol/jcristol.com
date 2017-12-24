@@ -43,15 +43,17 @@
     color: #666;
   }
 }
-
-.hero__container{
-  margin-right: 5rem;
-  margin-left: 5rem;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 250px;
-  justify-content: space-between;
+@media screen and (min-width: 480px) {
+  .hero__container{
+    margin-right: 5rem;
+    margin-left: 5rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 300px;
+    justify-content: space-between;
+  }
 }
+
 
 .hero__employer {
   width: 300px;

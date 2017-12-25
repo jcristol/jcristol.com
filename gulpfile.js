@@ -42,6 +42,7 @@ gulp.task('clean', () => {
 })
 
 
+
 // sass
 
 const processors = [
@@ -58,6 +59,10 @@ gulp.task('sass', () => {
     .pipe(sass())
     .pipe(postcss(processors))
     .pipe(gulp.dest('src/css'))
+})
+
+gulp.task('watch', function(){
+  gulp.watch('src/sass/**/*.scss', ['sass']); 
 })
 
 gulp.task('upload', shell.task([

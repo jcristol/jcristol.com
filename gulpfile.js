@@ -21,6 +21,7 @@ const uglify   = require('rollup-plugin-uglify')
 const rucksack = require('rucksack-css')
 
 // error handler
+// dumb comment
 
 const onError = function(error) {
   notifier.notify({

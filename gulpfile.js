@@ -61,6 +61,7 @@ gulp.task('sass', () => {
 })
 
 gulp.task('upload', shell.task([
+  'git push',
   'ssh jcristol@104.131.175.14 "cd ~/apps/jcristol.com && git pull && npm run build"',
 ]))
 

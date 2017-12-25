@@ -2,6 +2,7 @@
   "name": "jcristol.com",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://jcristol.com",
   "dependencies": {
     "node-sass": "^4.7.2",
     "react": "^16.2.0",

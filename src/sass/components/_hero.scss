@@ -11,6 +11,7 @@
   grid-auto-flow: rows;
   grid-auto-columns: 300px;
   justify-content: space-between;
+  margin-left: 2rem;
 }
 
 .hero__title {
@@ -56,6 +57,7 @@
     grid-auto-flow: column;
     grid-auto-columns: 300px;
     justify-content: space-between;
+    margin: auto;
   }
 }
 

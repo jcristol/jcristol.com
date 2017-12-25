@@ -55,7 +55,7 @@ const Meat = () => (
       </div>
       <div class="work-container">
         <ul class="work__list">
-          <li class="work__list-item">
+          <li class="work__list-item-first">
             <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="https://www.spredfast.com/">
               <h2 class="work-title">
                 Spredfast
@@ -114,7 +114,7 @@ const Meat = () => (
       </div>
       <div class="work-container">
         <ul class="work__list">
-          <li class="work__list-item">
+          <li class="work__list-item-first">
             <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="">
               <h2 class="work-title">
                 NFL Database

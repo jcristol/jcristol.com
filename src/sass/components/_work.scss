@@ -41,10 +41,6 @@
   transition: all 300ms ease;
   list-style: none;
 
-  .work__list-item--first {
-    border-top: 1px solid $grey-border;
-  }
-
   &:hover,
   &:active,
   &:focus {
@@ -60,7 +56,10 @@
     }
   }
 }
-
+.work__list-item-first{
+  @extend .work__list-item;
+  border-top: 1px solid $grey-border;
+}
 .work__list-item-link {
   display: flex;
   flex-direction: row;

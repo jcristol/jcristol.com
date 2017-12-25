@@ -6,6 +6,13 @@
    margin-bottom: 5rem;
  }
 
+.hero__container{
+  display: grid;
+  grid-auto-flow: rows;
+  grid-auto-columns: 300px;
+  justify-content: space-between;
+}
+
 .hero__title {
   position: relative;
   max-width: 900px;

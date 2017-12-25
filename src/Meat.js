@@ -9,7 +9,7 @@ const Meat = () => (
     <section class="hero">
       <div class="container">
         <h1 class="hero__title">
-          I'm Joshua Cristol, a  
+          I'm Joshua Cristol,  a  
           <a class="hero__link" target="_blank" href="https://github.com/jcristol"> developer </a>
           and
           <a class="hero__link" target="_blank" href="https://github.com/jcristol"> engineer </a>

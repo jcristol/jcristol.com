@@ -56,7 +56,7 @@ gulp.task('develop', ['watch', 'run-server'])
 
 gulp.task('upload', shell.task([
   'git push',
-  'ssh jcristol@104.131.175.14 "cd ~/apps/jcristol.com && git pull && rm -rf build && npm run build"',
+  'ssh jcristol@104.131.175.14 "cd ~/apps/jcristol.com && git pull && rm -rf build && npm run build && pm2 restart all"',
 ]))
 
 gulp.task('run-server', shell.task([

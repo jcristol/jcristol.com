@@ -10,14 +10,14 @@ const Meat = () => (
       <div class="container">
         <h1 class="hero__title">
           I'm Joshua Cristol, a  
-          <a class="hero__link" target="_blank" href="https://github.com/jcristol"> developer </a>
+          <a class="hero__link" target="_blank" rel="noopener noreferrer" href="https://github.com/jcristol"> developer </a>
           and
-          <a class="hero__link" target="_blank" href="https://github.com/jcristol"> engineer </a>
+          <a class="hero__link" target="_blank" rel="noopener noreferrer" href="https://github.com/jcristol"> engineer </a>
           living in Austin, Texas.
         </h1>
       </div>
       <div class="container container--wrap hero__container">
-        <a target="_blank" href="https://www.cs.utexas.edu/">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.cs.utexas.edu/">
           <div class="hero__employer">
             <h4 class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</h4>
             <h3 class="employer__label">
@@ -26,7 +26,7 @@ const Meat = () => (
             <img src={longhorn} alt={"logo"}/> 
           </div>
         </a>
-        <a target="_blank" href="https://www.spredfast.com/">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.spredfast.com/">
           <div class="hero__employer">
             <h4 class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</h4>
             <h3 class="employer__label">
@@ -35,7 +35,7 @@ const Meat = () => (
             <img src={spredfast} alt={"logo"}/> 
           </div>
         </a>
-        <a target="_blank" href="https://www.spredfast.com/">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.spredfast.com/">
           <div class="hero__employer">
             <h4 class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</h4>
             <h3 class="employer__label">
@@ -56,7 +56,7 @@ const Meat = () => (
       <div class="work-container">
         <ul class="work__list">
           <li class="work__list-item">
-            <a target="_blank" class="work__list-item-link" href="https://www.spredfast.com/">
+            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="https://www.spredfast.com/">
               <h2 class="work-title">
                 Spredfast
               </h2>
@@ -72,7 +72,7 @@ const Meat = () => (
             </a>
           </li>
           <li class="work__list-item">
-            <a target="_blank" class="work__list-item-link" href="https://www.verizon.com">
+            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="https://www.verizon.com">
               <h2 class="work-title">
                 Verizon
               </h2>
@@ -88,7 +88,7 @@ const Meat = () => (
             </a>
           </li>
           <li class="work__list-item">
-            <a target="_blank" class="work__list-item-link" href="http://www.elbitsystems-us.com">
+            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="http://www.elbitsystems-us.com">
               <h2 class="work-title">
                 Elbit Systems of Americaa
               </h2>
@@ -115,7 +115,7 @@ const Meat = () => (
       <div class="work-container">
         <ul class="work__list">
           <li class="work__list-item">
-            <a target="_blank" class="work__list-item-link" href="">
+            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="">
               <h2 class="work-title">
                 NFL Database
               </h2>
@@ -131,7 +131,7 @@ const Meat = () => (
             </a>
           </li>
           <li class="work__list-item">
-            <a target="_blank" class="work__list-item-link" href="">
+            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="">
               <h2 class="work-title">
                 Particle and Fluid Simulator
               </h2>
@@ -147,7 +147,7 @@ const Meat = () => (
             </a>
           </li>
           <li class="work__list-item">
-            <a target="_blank" class="work__list-item-link" href="">
+            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="">
               <h2 class="work-title">
                 Texas Guadaloop
               </h2>
@@ -163,7 +163,7 @@ const Meat = () => (
             </a>
           </li>
           <li class="work__list-item">
-            <a target="_blank" class="work__list-item-link" href="">
+            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="">
               <h2 class="work-title">
                 JS Project
               </h2>
@@ -179,7 +179,7 @@ const Meat = () => (
             </a>
           </li>
           <li class="work__list-item">
-            <a target="_blank" class="work__list-item-link" href="">
+            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="">
               <h2 class="work-title">
                 JS Project
               </h2>

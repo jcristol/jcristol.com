@@ -19,6 +19,8 @@ const commonjs = require('rollup-plugin-commonjs')
 const resolve  = require('rollup-plugin-node-resolve')
 const uglify   = require('rollup-plugin-uglify')
 const rucksack = require('rucksack-css')
+const shell = require('gulp-shell')
+
 
 // error handler
 // dumb comment
@@ -57,3 +59,13 @@ gulp.task('sass', () => {
     .pipe(postcss(processors))
     .pipe(gulp.dest('src/css'))
 })
+
+gulp.task('upload', shell.task([
+  'git push',
+  'ssh jcristol@104.131.175.14 "cd ~/apps/jcristol.com && git pull && npm run build"',
+]))
+
+gulp.task('install', shell.task([
+  'git push',
+  'ssh jcristol@104.131.175.14 "cd ~/apps/jcristol.com && git pull && npm install"',
+]))

@@ -45,8 +45,6 @@
 }
 @media screen and (min-width: 480px) {
   .hero__container{
-    margin-right: 5rem;
-    margin-left: 5rem;
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 300px;

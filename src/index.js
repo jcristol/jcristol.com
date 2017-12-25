@@ -7,7 +7,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
   google: {
-    families: ['Work Sans:300,400,700', 'sans-serif']
+    families: ['Titillium Web:300,400,700', 'sans-serif']
   }
 });
 

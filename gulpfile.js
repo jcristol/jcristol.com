@@ -65,6 +65,8 @@ gulp.task('watch', function(){
   gulp.watch('src/sass/**/*.scss', ['sass']); 
 })
 
+gulp.task('develop', ['watch', 'run-server'])
+
 gulp.task('upload', shell.task([
   'git push',
   'ssh jcristol@104.131.175.14 "cd ~/apps/jcristol.com && git pull && npm run build"',
@@ -73,4 +75,8 @@ gulp.task('upload', shell.task([
 gulp.task('install', shell.task([
   'git push',
   'ssh jcristol@104.131.175.14 "cd ~/apps/jcristol.com && git pull && npm install"',
+]))
+
+gulp.task('run-server', shell.task([
+  'npm start'
 ]))

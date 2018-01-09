@@ -28,7 +28,7 @@ const Meat = () => (
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://www.spredfast.com/">
           <div class="hero__employer">
-            <h4 class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</h4>
+            <h4 class="employer__description">Over the summer of 2017 I worked as a backend engineering intern at Spredfast in Austin Texas.</h4>
             <h3 class="employer__label">
               Previously
             </h3>

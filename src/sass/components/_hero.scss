@@ -8,16 +8,16 @@
 
 .hero__container{
     display: grid;
-    margin-left: 2rem;
     grid-auto-flow: column;
     justify-content: space-around;
     width: 100%;
 }
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 1000px) {
   .hero__container{
-    display: grid;
     grid-auto-flow: row;
+    grid-row-gap: 50px;
   }
 }
 
@@ -63,7 +63,6 @@
   width: 300px;
   height: 250px;
   margin-bottom: 2em;
-  margin-right: 2em;
   background-color: $grey;
   border-radius: 5px;
   box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);

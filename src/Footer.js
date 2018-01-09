@@ -26,6 +26,11 @@ const Footer = () => (
             GitHub
           </a>
         </li>
+        <li class="social-list__item">
+          <a href="https://www.linkedin.com/in/joshua-cristol/" class="social-list__item-link">
+            LinkdIn
+          </a>
+        </li>
         {/* linkdin profile */}
       </ul>
     </div>

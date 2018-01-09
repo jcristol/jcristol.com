@@ -162,6 +162,22 @@ const Meat = () => (
               </span>
             </a>
           </li>
+          <li class="work__list-item-first">
+            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="https://github.com/jcristol/jcristol.com">
+              <h2 class="work-title">
+                joshcristol.com
+              </h2>
+              <span class="work-detail work-role">
+                Sole Developer
+              </span>
+              <span class="work-detail work-company">
+                Personal Website
+              </span>
+              <span class="work-detail work-date">
+                2017
+              </span>
+            </a>
+          </li>
         </ul>
       </div>
     </section>

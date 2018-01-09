@@ -115,7 +115,7 @@ const Meat = () => (
       <div class="work-container">
         <ul class="work__list">
           <li class="work__list-item-first">
-            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="">
+            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="https://github.com/myang97/idb">
               <h2 class="work-title">
                 NFL Database
               </h2>
@@ -131,7 +131,7 @@ const Meat = () => (
             </a>
           </li>
           <li class="work__list-item">
-            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="">
+            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="https://github.com/BadDecisionsAlex/ThatsANiceRenderingDave">
               <h2 class="work-title">
                 Particle and Fluid Simulator
               </h2>
@@ -147,7 +147,7 @@ const Meat = () => (
             </a>
           </li>
           <li class="work__list-item">
-            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="">
+            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="https://github.com/jcristol/pcbMcRepo">
               <h2 class="work-title">
                 Texas Guadaloop
               </h2>
@@ -159,38 +159,6 @@ const Meat = () => (
               </span>
               <span class="work-detail work-date">
                 2015-2017
-              </span>
-            </a>
-          </li>
-          <li class="work__list-item">
-            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="">
-              <h2 class="work-title">
-                JS Project
-              </h2>
-              <span class="work-detail work-role">
-                Top Dog
-              </span>
-              <span class="work-detail work-company">
-                Bored Winter Break
-              </span>
-              <span class="work-detail work-date">
-                2017
-              </span>
-            </a>
-          </li>
-          <li class="work__list-item">
-            <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="">
-              <h2 class="work-title">
-                JS Project
-              </h2>
-              <span class="work-detail work-role">
-                Top Dog
-              </span>
-              <span class="work-detail work-company">
-                Bored Winter Break
-              </span>
-              <span class="work-detail work-date">
-                2017
               </span>
             </a>
           </li>

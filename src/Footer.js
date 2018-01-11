@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/style.css';
+import resume from './assets/resume_2018.pdf'
 
 const Footer = () => (
   <footer id="contact" class="footer">
@@ -12,7 +13,7 @@ const Footer = () => (
     <div class="container">
       <ul class="social-list">
         <li class="social-list__item">
-          <a href="" class="social-list__item-link">
+          <a href={resume} class="social-list__item-link" download>
             Download Resume
           </a>
         </li>

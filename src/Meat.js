@@ -2,6 +2,7 @@ import React from 'react';
 import './css/style.css';
 import spredfast from './images/spredfast-logo-trans.png'
 import longhorn from './images/longhorn.png'
+import austin from './images/austin.png'
 
 
 const Meat = () => (
@@ -35,13 +36,13 @@ const Meat = () => (
             <img src={spredfast} alt={"logo"}/> 
           </div>
         </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.spredfast.com/">
+        <a target="_blank" rel="noopener noreferrer" href="#">
           <div class="hero__employer">
             <h4 class="employer__description">Looking for a position as a developer in Austin.</h4>
             <h3 class="employer__label">
               Working On
             </h3>
-            <img src={spredfast} alt={"logo"}/> 
+            <img src={austin} alt={"logo"}/> 
           </div>
         </a>
       </div>

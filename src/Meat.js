@@ -37,7 +37,7 @@ const Meat = () => (
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://www.spredfast.com/">
           <div class="hero__employer">
-            <h4 class="employer__description">Finishing my last semester and loooking for a job in Austin Texas.</h4>
+            <h4 class="employer__description">Looking for a position as a developer in Austin.</h4>
             <h3 class="employer__label">
               Working On
             </h3>

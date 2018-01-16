@@ -37,7 +37,7 @@ const Meat = () => (
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://www.spredfast.com/">
           <div class="hero__employer">
-            <h4 class="employer__description">I am currently a student of the University of Texas at Austin in the Computer Science School.</h4>
+            <h4 class="employer__description">Finishing my last semester and loooking for a job in Austin Texas.</h4>
             <h3 class="employer__label">
               Working On
             </h3>
@@ -90,7 +90,7 @@ const Meat = () => (
           <li class="work__list-item">
             <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="http://www.elbitsystems-us.com">
               <h2 class="work-title">
-                Elbit Systems of Americaa
+                Elbit Systems of America
               </h2>
               <span class="work-detail work-role">
                 Software Engineering Intern

@@ -10,8 +10,8 @@ class App extends Component {
   render() {
     return (
       <Switch>
-        <Route path='/blog1'>{Blog1}</Route>
-        <Route path='/'>{PersonalSite}</Route>
+        <Route path='/blog1' component={Blog1}/>
+        <Route path='/'component={PersonalSite}/>
       </Switch>
     );
   }

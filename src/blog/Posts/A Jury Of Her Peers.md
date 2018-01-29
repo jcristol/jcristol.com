@@ -1,6 +1,6 @@
 # Writing Analysis
 
-*A Jury of Her Peers*, a short story by the early 20th century writer Susan Glaspell shows both the cause of the American feminsit movement and acts of rebellion aganist women's lowered status in American society.
+*A Jury of Her Peers*, a short story by the early 20th century writer Susan Glaspell shows both the cause of the American feminist movement and acts of rebellion aganist women's lowered status in American society.
 
 The plot is driven by two women Mrs. Hale, a neighboring farmers wife, and Mrs. Peters, the sheriff's wife, who over the course of the short story discover the true nature of the murder of Mr. Wright by his wife Mrs. Wright. The husband's of these two women ineffectively investigate the crime scene while belittling the two women as they collect Mrs. Wright's belongings. Ironically, the men learn nothing important from the crime scene while the women see evidence around the house that shows Mrs. Wright murdered her husband in response to his abuse. Faced with this knowledge both confirming the accused as a murderer and as a sympathetic victim the women have to choose whether to report the evidence to the men. At the very end of the novel the women choose to not condemn Mrs. Wright to the murder of her husband.
 

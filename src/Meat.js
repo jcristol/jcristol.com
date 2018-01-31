@@ -36,7 +36,7 @@ const Meat = () => (
             <img src={spredfast} alt={"logo"}/> 
           </div>
         </a>
-        <a target="_blank" rel="noopener noreferrer" href="#">
+        <a target="_blank" rel="noopener noreferrer">
           <div class="hero__employer">
             <h4 class="employer__description">Becoming a developer in Austin.</h4>
             <h3 class="employer__label">

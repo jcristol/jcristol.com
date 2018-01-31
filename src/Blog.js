@@ -9,12 +9,13 @@ const Div = styled.div`
   h1, h2 {
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   h3, h4, h5 {
     font-size: 20px;
-    margin-top: 15px;
-    margin-bottom: 1px;
+  }
+  p {
+    margin-bottom: 10px;
   }
 `;
 

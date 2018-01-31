@@ -3,16 +3,18 @@ import './css/style.css';
 import Header from './Header';
 import Meat from './Meat';
 import Footer from './Footer';
-import Blog1 from './blog/JS/Blog1';
-import Blog2 from './blog/JS/Blog2';
+import Blog from './Blog';
 import { Route, Switch } from 'react-router';
+
+var blog1 = require("./blog/Understanding Systems of Ethics.md")
+var blog2 = require("./blog/A Jury Of Her Peers.md")
 
 class App extends Component {
   render() {
     return (
       <Switch>
-        <Route path='/Blog1' component={Blog1}/>
-        <Route path='/Blog2' component={Blog2}/>
+        <Route path='/blog1' render={() => <Blog id="1" post={blog1}/>}/>
+        <Route path='/blog2' render={() => <Blog id="1" post={blog2}/>}/>
         <Route path='/'component={PersonalSite}/>
       </Switch>
     );

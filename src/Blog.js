@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../css/style.css';
+import './css/style.css';
 import marked from 'marked';
 import styled from 'styled-components';
 
@@ -11,7 +11,7 @@ const Div = styled.div`
     font-weight: bold;
     margin-bottom: 20px;
   }
-  h4 {
+  h3, h4, h5 {
     font-size: 20px;
     margin-top: 15px;
     margin-bottom: 1px;
@@ -24,7 +24,7 @@ const Paragraph = styled.p`
 `;
 
 
-class Blog2 extends Component {
+class Blog extends Component {
   
   constructor(props) {
     super(props);
@@ -34,9 +34,7 @@ class Blog2 extends Component {
   }
 
   componentWillMount() {
-    const readmePath = require("../Posts/A Jury Of Her Peers.md");
-  
-    fetch(readmePath)
+    fetch(this.props.post)
       .then(response => {
         return response.text()
       })
@@ -56,4 +54,4 @@ class Blog2 extends Component {
   }
 }
 
-export default Blog2;
+export default Blog;

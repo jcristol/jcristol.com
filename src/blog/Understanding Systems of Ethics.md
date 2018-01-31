@@ -22,8 +22,8 @@ However, their are positives to this type of ethical system. It is easy to compr
 
 #### Citations
 
-- [1]: Hursthouse, Rosalind, and Glen Pettigrove. “Virtue Ethics.” *Stanford Encyclopedia of Philosophy*, Stanford University, 18 July 2003, plato.stanford.edu/entries/ethics-virtue/.
-- [2]: “Virtue Ethics.” *Wikipedia*, Wikimedia Foundation, 21 Jan. 2018, en.wikipedia.org/wiki/Virtue_ethics.
+1. Hursthouse, Rosalind, and Glen Pettigrove. “Virtue Ethics.” *Stanford Encyclopedia of Philosophy*, Stanford University, 18 July 2003, plato.stanford.edu/entries/ethics-virtue/.
+2. “Virtue Ethics.” *Wikipedia*, Wikimedia Foundation, 21 Jan. 2018, en.wikipedia.org/wiki/Virtue_ethics.
 
 ​
 

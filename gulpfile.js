@@ -9,7 +9,7 @@ const maps     = require('gulp-sourcemaps')
 const notifier = require('node-notifier')
 const rucksack = require('rucksack-css')
 const shell = require('gulp-shell')
-
+const gulpNSP = require('gulp-nsp');
 
 // error handler
 // dumb comment
@@ -37,6 +37,10 @@ const processors = [
   prefixer({ browsers: 'last 2 versions' }),
   cssnano({ safe: true })
 ]
+
+gulp.task('nsp', function(cb) {
+    gulpNSP({package: __dirname + '/package.json'}, cb);
+});
 
 
 gulp.task('sass', () => {

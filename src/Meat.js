@@ -163,7 +163,7 @@ const Meat = () => (
               </span>
             </a>
           </li>
-          <li class="work__list-item-first">
+          <li class="work__list-item">
             <a target="_blank" rel="noopener noreferrer" class="work__list-item-link" href="https://github.com/jcristol/jcristol.com">
               <h2 class="work-title">
                 joshcristol.com

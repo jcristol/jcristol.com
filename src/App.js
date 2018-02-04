@@ -8,6 +8,7 @@ import { Route, Switch } from 'react-router';
 
 var blog1 = require("./blog/Understanding Systems of Ethics.md")
 var blog2 = require("./blog/A Jury Of Her Peers.md")
+var blog3 = require("./blog/Alice Corp vs. Cls.md")
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
       <Switch>
         <Route path='/blog1' render={() => <Blog id="1" post={blog1}/>}/>
         <Route path='/blog2' render={() => <Blog id="1" post={blog2}/>}/>
+        <Route path='/blog3' render={() => <Blog id="1" post={blog3}/>}/>
         <Route path='/'component={PersonalSite}/>
       </Switch>
     );

@@ -1,4 +1,4 @@
-#### Software Patentability
+## Software Patentability
 
 Alice Corp. held several patents over software that implemented electronic escrow. CLS Bank a fairly large international bank sued Alice Corp. alleging that these electronic escrow patents held by Alice Corp. were invalid. Alice Corp. counter sued CLS Bank and the resulting court battle snaked all the way up to the supreme court. In 2014 the supreme court in a unanimous decision struct down Alice Corp.'s patents claiming, software patents over abstract ideas such as an escrow system are invalid. 
 
@@ -6,6 +6,6 @@ This decision has had huge implications for software patents generally. Immediat
 
 At its core I agree with the Supreme Court's decision. I don't think ideas that are widely known should be protected legally when they are transcribed into a computer program. However, in practice it becomes really tricky to decide what is patentable. Its hard to figure out when an invention separates itself from the abstract ideas that underpin an invention's creation. If an invention doesn't separate itself enough from these ideas then the software invention will not be patentable. Take databases as an example. One of the major underlying ideas behind a database is a table or ledger that accounts for data of many types. Tables have been in use for thousands of years and thus judges in the US have ruled that database patents are not valid because they have not separated themselves enough from this abstract universal idea[1]. Do I think every database patent is valid? No. But having such a subjective standard of what constitutes a simple implementation of an old abstract idea will error sometimes and hurt innovation.
 
-Citations
+### Citations
 
 1. Judge., MARIANA R. PFAELZER District. “ENFISH, LLC v. MICROSOFT | 56 F.Supp.3d 1167 (2014) | 51014000294.” *Leagle*, United States District Court, C.D. California, Western Division.https://Leagle.com/Images/Logo.png, www.leagle.com/decision/inadvfdco151014000294.

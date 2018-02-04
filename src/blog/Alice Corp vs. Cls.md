@@ -1,0 +1,11 @@
+#### Software Patentability
+
+Alice Corp. held several patents over software that implemented electronic escrow. CLS Bank a fairly large International bank sued Alice Corp. alleging that these electronic escrow patents held by Alice Corp. were invalid. Alice Corp. counter sued CLS Bank and the resulting court battle snaked all the way up to the supreme court. In 2014 the supreme court in a unanimous decision struct down Alice Corp.'s patents claiming, software patents over abstract ideas such as an escrow system are invalid. 
+
+This decision has had huge implications for software patents generally. Immediately after the decision the volume of new software patents went down significantly and, the frequency of software patents being taken down shot up dramatically. This aftermath was caused by the court's decision which did include a standard for what kinds of software patents are too abstract and thus not patentable.
+
+At its core I agree with the Supreme courts decision. Why should ideas that are widely known and used be protected legally when they are transcribed into a computer program. Even though I agree with this standard I think that in practice it becomes really tricky to decide what is patentable. At what point does an invention separate itself from the abstract ideas that underpin its creation? If an invention doesn't separate itself enough from these ideas then the software invention will not be patentable. Take databases as an example. One of the major underlying ideas behind a database is a table or ledger that accounts for data of many types. Tables have been in used for thousands of years and thus judges have ruled that database patents are not valid because they have not separated themselves enough from this abstract universal idea[1]. Do I think every database patent is valid? No. But in general what we have the ability to quantify as implementing an abstract idea is too subjective to determine what is and isn't patentable software. 
+
+Citations
+
+1. Judge., MARIANA R. PFAELZER District. “ENFISH, LLC v. MICROSOFT | 56 F.Supp.3d 1167 (2014) | 51014000294.” *Leagle*, United States District Court, C.D. California, Western Division.https://Leagle.com/Images/Logo.png, www.leagle.com/decision/inadvfdco151014000294.

@@ -1,8 +1,10 @@
 ## Strategy and Planning Around Bugz
 Coming up with a plan and sticking to it seems like the oldest tip in the book when building any project. But when it comes to designing a software project, planning for future development is deceptively difficult. Project planners must figure out how the project could potentially impact users, how to detect and mitigate bugs, and come up with a system architecture that is very detailed. Potential user impact hugely affects your development process. Figuring out how to find and mitigate bugs is drastically different for software on a high impact system like SpaceX rockets versus software written to support a website that curates photos of cats wearing fruit peels on their heads. There are different debugging systems that should be applied to projects with high impact and low impact.
 
-**Low Impact Software**
+#### **Low Impact Software**
+
 In scenarios where the potential impact is very low, the bug catching processes should be written such that it is responsive to continuous change. Many companies today make their web applications and software products out of a collection of micro-services that act together to make the product. This splitting of dependency and function allows developers to limit the scope of effects that potential bugs could affect. A good way to picture how this division really helps managing bugs is to think of software development like knitting. In knitting if you miss a thread or a knot early on it is simple to fix, but as the quilt grows around that core error more and more of the entire quilt will have to unravel to fix it. This is the same in monolithic software design and the reason why micro-services are encouraged for small impact software development.
 
-**High Impact Software**
+#### **High Impact Software**
+
 Splitting code bases makes fixing bugs easier but can introduce and encourage intolerable behavior when writing mission critical code. If a project is heavily split with many components talking to each other, like the micro-service approach, the project starts to rely heavily on third parties for communication between systems. I think it is very important for mission critical scenarios to limit one's exposure possible to code that is not highly vetted. That is why in many cases mission critical software does not rely heavily on open source tools that could accomplish some of their goals without spending so much time in development. In high impact software it is important to focus heavily on each bit of code written and make sure it meets all standards. 

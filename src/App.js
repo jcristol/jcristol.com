@@ -10,6 +10,7 @@ var blog1 = require("./blog/Understanding Systems of Ethics.md")
 var blog2 = require("./blog/A Jury Of Her Peers.md")
 var blog3 = require("./blog/Alice Corp vs. Cls.md")
 var blog4 = require("./blog/Blog4.md")
+var blog5 = require("./blog/Blog5.md")
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <Route path='/blog2' render={() => <Blog id="1" post={blog2}/>}/>
         <Route path='/blog3' render={() => <Blog id="1" post={blog3}/>}/>
         <Route path='/blog4' render={() => <Blog id="1" post={blog4}/>}/>
+        <Route path='/blog5' render={() => <Blog id="1" post={blog5}/>}/>
         <Route path='/'component={PersonalSite}/>
       </Switch>
     );

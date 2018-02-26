@@ -9,3 +9,10 @@ With this anti-competitive marketplace ISP's can make changes to how internet se
 A good example of a theoretical battle could be Netflix versus Hulu. Hulu, a service owned by the ISP Comcast, would be prioritized for speed and cost and Netflix would be too expensive and hard to get for consumers. ISPs could also limit access to information that we see as basic necessity today. Imagine what it would be like to have to pay for a subscription to Wikipedia. While these scenario's might not play out as soon as this year , ISP's will most likely role out anti-competitive policies at a slow creep to not bother consumer's or the news media.
 
 The real bottom line is that the Internet unfortunately is not a regular marketplace and shouldn't be regulated like one. The Internet and the information on it should be protected and regulated by the government. The only solution to this problem is to reinstate Net Neutrality rules. 
+
+
+
+## Citations
+
+1. https://en.wikipedia.org/wiki/Internet_in_the_United_States#/media/File:Broadband-choice.png
+2. https://arstechnica.com/tech-policy/2017/11/att-tries-to-save-time-warner-merger-responds-to-trump-admin-lawsuit/

@@ -7,12 +7,3 @@ Where and why has this idea of the Internet broken down. For one the Internet un
 The real bottom line is that the Internet unfortunately is not a regular marketplace and shouldn't be regulated like one. The Internet and the information on it should be protected and regulated by the government.
 
 The only solution I see barring the Internet marketplace becoming way more competitive is to reinstate Net Neutrality rules. 
-
-
-
-## 
-
-
-
-
-

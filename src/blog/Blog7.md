@@ -1,0 +1,9 @@
+## Technology and Security
+
+So called "Eyes In The Sky" (**EIS** pronounced ease) are drones that circle the sky of an area for hours on end constantly watching the ground. EISs come equipped with a very wide angle camera that captures almost all movement that is visible from the sky. These drones have primarily been used for military purposes but over time have found themselves in the hands of local law enforcement. In these law enforcement use cases drones will continuously watch a city or neighborhood and use the video captured to stop, prevent, and prosecute crime more easily. Although this sort of technology has not become mainstream, drone use has caused a lot of controversy.
+
+### Privacy versus Security
+
+"Eyes In The Sky" like almost nothing before will take the privacy away from many of our daily interactions. Any sort of crime ranging from illegally parking to murder in the street will be captured under these sorts of systems. Beyond crime all legal actions will be recorded and could be potentially used by people outside of law as leverage over others. Imagine for a second what a divorce case would look like if both parties know that there existed footage of their spouse's movements day by day. 
+
+There are huge potential benefits that can be reaped from this tech. Imagine a country where crime cannot be committed out in the open. But, the cost of such a utopia will be everyone's personal liberty and privacy. I personally don't want a society where the relationship between the people and the government isn't built on the foundation of trust. I think pursing technology that follows the adage "its better to be feared than loved" is cynical and will lead to the ruin of society and our progress toward the future.

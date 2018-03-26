@@ -1,0 +1,13 @@
+## Addiction Online
+
+It is hard to come up with a metric that tells us whether our century is more addictive or less addictive then the previous. However, I certainly feel like many people myself included are constantly plugged into a digital world where we are constantly being stimulated. One of the many downsides of this constant stimulation is not being able to experience boredom. Boredom surprisingly is an important part of mental health and helps stimulate creativity and activity. Other side effects of this new reality are just starting to be understood and here I would like to talk about several websites that I think have forgotten there responsibilities and have built business models around addiction.
+
+#### Facebook
+
+The big FB. Facebook is in a lot of hot water right now for allowing peoples personal data to be slurped up so freely by anyone conducting a "research" study. However, what doesn't catch headlines as much is how Facebook use in general is built around addicting users to constantly user their platform. Facebook has over 2 billion users barring China lifting its ban on Facebook it is nearly impossible for this company to grow its user base more. Realizing this Facebook's growth strategy has almost been entirely focused on building mechanics in the website that try and keep people their longer. That is why Facebook diversified to video and changed its rank algorithm to bring more media to your newsfeed. Originally this website was simply trying to connect you to your friends better. But now it has turned into the largest platform that serves media content online. 
+
+####  Reddit
+
+I spent roughly 5 years engaged on the platform however over that time period I felt my self getting more and more sucked into it. I found myself in almost every instance of downtime on the bus, before class, in the morning, before bed entertaining myself by looking at what people where talking about and looking at on Reddit. I am sure this pattern of use is not unique to me. I here from many friends that they spend too much time on this platform and that it is distracting when trying to accomplish any work. It and many other similar sites have become such a big distraction that applications have come out that allow people to self impose reddit restrictions and that give them points for the amount of time they spend off the site. 
+
+I do not think all these sites are inherently bad. However I think that certain mechanics that have been baked in such as the newsfeed algorithm in Facebook and the endless scroll in Reddit have led to really addictive behavior. I think these companies need to embrace their responsibility and start changing their platforms to help and not hurt society. 
